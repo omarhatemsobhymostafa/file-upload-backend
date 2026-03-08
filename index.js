@@ -16,7 +16,7 @@ const storage = multer.diskStorage({
 })
 const upload = multer({ storage })
 
-app.use(cors({ origin: "http://localhost:3002" }))
+app.use(cors({ origin: "https://fantastic-biscotti-2e2dcc.netlify.app" }));
 
 
 app.post("/upload", upload.single("file"), (req,res) => {
