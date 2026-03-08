@@ -3,7 +3,6 @@ const path = require("path")
 const multer = require("multer")
 const cors = require("cors")
 const fs = require("fs")
-const env = require('env')
 const app = express()
 const PORT = process.env.PORT || 3000;
 
